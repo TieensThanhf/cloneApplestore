@@ -66,7 +66,10 @@ body, html {
     color:#06c;
   } 
 
-
+  .product-buttons .btn:hover {
+    color: #06c;
+  }
+  
 
 /* Introduce */
 .grid-section {
@@ -99,9 +102,67 @@ body, html {
   }
   
 
-  
-  
+ /* slide   */
+ .carousel-caption {
+    text-align: left !important;
+  }
 
+ .carousel-caption button {
+    background-color: white;
+    color: black;
+    border-radius: 980px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    border-color: rgb(245 245 247);
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .carousel-caption button:hover {
+    background-color: rgb(227, 227, 237);
+    color: black
+  }
+
+  .carousel-caption a{
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-left: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 1000px; 
+  }
+  .carousel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: relative;
+  }
+  .carousel-inner {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .carousel-inner {
+    max-width: 1200px;  
+    width: 100%;
+  }
+  
+  
+  
+  
   
 
   
