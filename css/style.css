@@ -1,0 +1,110 @@
+
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Lato;
+}
+
+/* HEADER  */
+.apple-logo {
+    width: 40px; /* Điều chỉnh kích thước chiều rộng */
+    height: auto; /* Đảm bảo tỷ lệ khung hình được bảo tồn */
+}
+
+
+/* Carousel */
+.product-container {
+    width: 100%;
+    height: auto;
+    max-width: 3008px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+  }
+
+  .product-wrapper {
+    position: relative;
+  }
+  
+  .product-overlay {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  
+  .product-overlay h2.product-title {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .product-overlay h3.product-content {
+    font-weight:  Medium ;
+     
+  }
+  .product-buttons a:hover {
+    text-decoration: underline;
+  } 
+  .product-buttons .btn {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+    color:#06c;
+  } 
+
+
+
+/* Introduce */
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    position: relative;
+  } 
+   
+  .product-background {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 580px;
+  }
+  
+  .product-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+  }
+  .grid-item:nth-child(2) .product-overlay {
+    top: 80%;
+  }
+  
+
+  
+  
+
+  
+
+  
+    
+  
+  
