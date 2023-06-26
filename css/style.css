@@ -159,9 +159,103 @@ body, html {
     max-width: 1200px;  
     width: 100%;
   }
+  .carousel-indicators li {
+    width: 10px !important; 
+    height: 10px !important;
+    background-color: gray !important; 
+    border-radius: 50%; 
+    margin: 5px;
+  }
   
+  .carousel-indicators li.active {
+    background-color: black !important;
+  }
+  .carousel-indicators {
+    bottom: initial !important;
+}
+
+  /* footer  */
+  .content-footer{
+    color: grey;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+  } 
+  .content-footer a{
+    color: grey;
+    text-decoration: underline;
+  }
+  .content-footer a:hover{
+    color: grey;
+  }
   
-  
+  .divider {
+    height: 1px;
+    background-color:grey;
+   
+  }
+
+  .link-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+
+.link-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.link-footer a {
+  color: gray; 
+  text-decoration: none;
+}
+.link-footer a:hover{
+  color: gray;
+}
+footer h6{
+  color: grey;
+}
+
+.footer-info p {
+  margin: 0;
+  color: gray;
+}
+
+.footer-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-info a {
+  color: gray;
+  text-decoration: none;
+}
+.footer-info a:hover{
+  color: gray;
+}
+
+.footer-info li::after {
+  content: "|";
+  margin-left: 10px;
+  color: gray;
+}
+
+.footer-info li:last-child::after {
+  content: none;
+}
   
   
 
